@@ -18,7 +18,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage" : "http://hadi7325.github.io/mini-shop-react",
+  "homepage" : "http://hadi7325.github.io/mini-shop-with-react",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
