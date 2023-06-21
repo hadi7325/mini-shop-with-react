@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mini-shop-with-react/static/css/main.8cd5945c.css",
+    "main.js": "/mini-shop-with-react/static/js/main.c1170e0c.js",
+    "index.html": "/mini-shop-with-react/index.html",
+    "main.8cd5945c.css.map": "/mini-shop-with-react/static/css/main.8cd5945c.css.map",
+    "main.c1170e0c.js.map": "/mini-shop-with-react/static/js/main.c1170e0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cd5945c.css",
+    "static/js/main.c1170e0c.js"
+  ]
+}
