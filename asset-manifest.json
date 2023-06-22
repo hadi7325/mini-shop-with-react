@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/mini-shop-with-react/static/css/main.8cd5945c.css",
-    "main.js": "/mini-shop-with-react/static/js/main.9a821385.js",
+    "main.css": "/mini-shop-with-react/static/css/main.8e1b7939.css",
+    "main.js": "/mini-shop-with-react/static/js/main.e5456d8c.js",
+    "static/media/vazir.eot": "/mini-shop-with-react/static/media/vazir.1b5539cdf08a6bd7d02e.eot",
+    "static/media/vazir.ttf": "/mini-shop-with-react/static/media/vazir.22679c959dc40b2b2cff.ttf",
+    "static/media/vazir.woff": "/mini-shop-with-react/static/media/vazir.18dfcb396fcd4c60610c.woff",
     "index.html": "/mini-shop-with-react/index.html",
-    "main.8cd5945c.css.map": "/mini-shop-with-react/static/css/main.8cd5945c.css.map",
-    "main.9a821385.js.map": "/mini-shop-with-react/static/js/main.9a821385.js.map"
+    "main.8e1b7939.css.map": "/mini-shop-with-react/static/css/main.8e1b7939.css.map",
+    "main.e5456d8c.js.map": "/mini-shop-with-react/static/js/main.e5456d8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cd5945c.css",
-    "static/js/main.9a821385.js"
+    "static/css/main.8e1b7939.css",
+    "static/js/main.e5456d8c.js"
   ]
 }
