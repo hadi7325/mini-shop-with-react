@@ -10,7 +10,7 @@ function Products(props) {
                 {
                     props.item.map((item) =>
                         <li key={item.id}>
-                            <img src={item.image} alt="" />
+                            <img src={process.env.PUBLIC_URL + item.image} alt="" />
                             <div className="name">{item.title}</div>
                             <div className='price-box'>
                                 <button onClick={() => props.addCardItems(item)} type="button">افزودن به سبد خرید</button>

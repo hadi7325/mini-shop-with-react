@@ -10,11 +10,9 @@ function Home() {
     const [sort, setSort] = useState("new")
     const [brand, setBrand] = useState("")
     const [cardItem,setCardItem] = useState([])
-    console.log(item)
-    console.log(item)
+
     const changeSort = (e) => {
         setSort(e.target.value)
-        console.log(sort)
         if (sort === "new") {
             setItem(data.products.sort((a, b) => (a.id < b.id ? 1 : -1)))
         }
@@ -36,7 +34,6 @@ function Home() {
     }
     
     const addCardItems = (product) =>{
-        console.log(cardItem)
         const exist = cardItem.find((element) => element.id === product.id)
         if(exist){
             setCardItem(

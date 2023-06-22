@@ -1,9 +1,20 @@
+@font-face {
+  font-family: 'vazir';
+  src: url('../public/fonts/number/vazir.eot') format('eot');
+  src : url('../public/fonts/number/vazir.ttf') format('ttf'),
+  url('../public/fonts/number/vazir.woff') format('woff');
+}
+
+
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: "vazir" !important;
+
 }
 
 body {
@@ -224,4 +235,70 @@ footer{
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+
+@media screen and (max-width : 1200px) {
+  .main .products li{
+    width: 49%;
+  }
+
+  .content .main{
+    width: calc(60% - 20px);
+   
+  }
+  
+  .content .sidebar{
+    width: calc(40% - 20px);
+  }
+}
+@media screen and (max-width : 992px) {
+  .content .filter{
+    flex-wrap: wrap;
+
+  }
+  .content .filter>div{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .filter .sort .title{
+    margin-bottom: 15px;
+  }
+  .sort .all-input{
+    justify-content: center;
+  }
+  .filter .brands{
+    justify-content: center;
+  }
+  .filter .count-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .main .products li{
+    width: 100%;
+  }
+  .content .main{
+    width: calc(50% - 20px);
+   
+  }
+  
+  .content .sidebar{
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .content{
+    flex-wrap: wrap;
+  }
+  .content .main{
+    width: 100%;
+   
+  }
+  
+  .content .sidebar{
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }

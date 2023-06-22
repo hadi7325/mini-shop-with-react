@@ -14,10 +14,10 @@ function Factor(props) {
             <div className='factor-item'>
                 {
                 props.cardItem.map((item ) =>
-                <Fade left>
+                <Fade left key={item.id}>
                     <div className='item' key={item.id}>
                     <div className='intro'>
-                        <img src={item.image} alt="" />
+                        <img src={process.env.PUBLIC_URL + item.image} alt="" />
                         <div className='name'>{item.title}</div>
                     </div>
                     <div className='result'>
